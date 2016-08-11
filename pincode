@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>Login form</title>
+		<style>
+		#st{
+		    background-color:#EEEEEE;		
+		}
+		</style>
+	</head>
+	<body bgcolor="#DDDDDD">
+		<form action="signin.php" method="get">
+		<table align="center" height="150" width="1290" style="background-image: url(login.jpg); width:550px; height:300px;">
+			<tr >
+				<td></td>
+			</tr>
+		</table>
+		<table width="550" height="225" align="center" frame="box" style="background-color:silver">
+			<tr align="center">
+				<td>User Name: </td>
+				<td><input type="text" required size="25" name="un"></td>
+			</tr>
+			<tr align="center">
+				<td>Password: </td>
+				<td><input type="password" required size="25" name="pw"></td>
+			</tr>
+			<tr align="center">
+				<td><input type="submit" value="LogIn"></td>
+			</tr>
+		</table>
+		</form>
+		<div id="st">		
+			<hr>
+			<p align="right">Powered by <b>[name]</b></p>
+			<hr>
+		</div>
+	</body>
+</html>
